@@ -1,0 +1,18 @@
+<ion-view  view-title="Dipali's Portfolio">
+    <ion-content class="padding">
+          
+        <div ng-repeat="data in projects" class="padding">
+            
+            <div class="row responsive-sm">
+
+            <a class="col" href="{{data.imgUrl}}" >
+                <h4 class="t-color-red text-look ">{{data.name}}</h4>
+                <img ng-src="{{data.picture}}" height="200px;" width="300px">
+                <p class="text-look">{{data.descripation}}</p>
+            </a>
+
+            </div>
+        </div>
+            
+    </ion-content>
+</ion-view>
