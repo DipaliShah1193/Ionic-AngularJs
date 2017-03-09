@@ -1,0 +1,41 @@
+ion-content{
+ padding:20px;    
+}
+.header-item{
+    float:left;
+    color:white;
+    
+}
+.bg-color-red{
+   background-color: #c96564; 
+}
+.t-color-white{
+    color:white;
+}
+.t-color-red{
+    color:#c96564;
+}
+.tabs{
+    background-color: #c96564;  
+}
+.tab-item{
+    color:white;
+}
+.pro_info{
+      text-align:center;
+    
+   }
+.profile{
+    height: auto;
+    width:auto;
+    vertical-align: middle;
+}
+a{
+   text-decoration: none; 
+    color:black;
+}
+.contact_icon{
+    font-size:20px;
+    text-decoration: none;
+}
+

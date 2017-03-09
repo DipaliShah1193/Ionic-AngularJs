@@ -1,0 +1,49 @@
+<ion-view view-title="Dipali's Portfolio">
+    <ion-content class="padding">
+        
+        <div class="card">
+            <div class="list">
+                <div class="item item-divider t-color-white bg-color-red">
+                Education
+                </div>
+                <p class="item">
+                    Bachelors in Electronics & Communication <br>	
+                    Gujarat Technological University <br>	
+                    Ahmedabad, India <br>	
+                    CGPA: 8.66/10
+                </p>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="list">
+                <div class="item item-divider t-color-white bg-color-red">
+                Web Technical Skills
+                </div>
+                <div ng-repeat="data in web_skills">
+                <p class="item">{{data}}</p>
+                </div>
+            </div>
+        </div>
+        
+         <div class="card">
+            <div class="list">
+                <div class="item item-divider t-color-white bg-color-red">
+               Content Management System
+                </div>
+                <p class="item">Orchard CMS</p>
+            </div>
+        </div>
+        
+         <div class="card">
+            <div class="list">
+                <div class="item item-divider t-color-white bg-color-red">
+               Development Tools
+                </div>
+                <div ng-repeat="data in development_tools">
+                <p class="item">{{data}}</p>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
